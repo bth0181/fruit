@@ -45,7 +45,7 @@ const loadProducts = async() => {
         const x = `
         <section>
                 <div class="card card-long animated fadeInUp once">
-                    <img src="asset/img/${product.id}.jpg" class="album">
+                    <img src="asset/img/${product.name}.jpg" class="album">
                     <div class="span1">Product Name</div>
                     <div class="card__product">
                         <span>${product.name}</span>
