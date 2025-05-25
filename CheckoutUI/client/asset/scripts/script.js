@@ -79,7 +79,7 @@ const loadProducts = async() => {
 var checkout = async() => {
     document.getElementById('2').innerHTML = "<span class='loader-16' style='margin-left: 44%;'></span>"
     var payable = 0;
-    url = 'https://automaticbilling.herokuapp.com/product';
+    url = 'https://fruit-qpv0.onrender.com/product';
 
     let res = await axios.get(url);
     responseText = await res.data;
